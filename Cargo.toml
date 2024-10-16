@@ -12,7 +12,7 @@ license = "Apache-2.0"
 readme = "README.md"
 keywords = ["substreams", "ethereum", "streamingfast", "firehose", "thegraph"]
 categories = ["api-bindings", "external-ffi-bindings", "wasm"]
-rust-version = "1.60"
+rust-version = "1.81"
 
 [workspace.dependencies]
 substreams-ethereum = { version = "0.9.13", path = "./substreams-ethereum" }
@@ -24,3 +24,6 @@ substreams-ethereum-derive = { version = "0.9.13", path = "./derive" }
 lto = true
 opt-level = 's'
 strip = "debuginfo"
+
+[patch.crates-io.substreams]
+git = "https://github.com/tumaysem/substreams-rs"

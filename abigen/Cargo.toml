@@ -13,8 +13,8 @@ rust-version.workspace = true
 
 [dependencies]
 anyhow = "1"
-ethabi = "17.0"
-heck = "0.4"
+ethabi = "18.0"
+heck = "0.5"
 hex = "0.4"
 syn = { version = "1.0.95", default-features = false, features = [
     "derive",

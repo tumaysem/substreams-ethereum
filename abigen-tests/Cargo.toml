@@ -15,7 +15,7 @@ rust-version.workspace = true
 doc = false
 
 [dependencies]
-ethabi = "17.0"
+ethabi = "18.0"
 num-bigint = "0.4.3"
 num-traits = "0.2.15"
 prost = "^0.13"
